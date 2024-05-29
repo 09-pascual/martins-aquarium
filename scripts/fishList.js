@@ -17,7 +17,7 @@ export const fishList = () => {
         `;
     }
     return fishHTML;
-};
+}
 
 export const renderFishToDOM = (fishHTML) => {
     const fishListElement = document.getElementById('fishList');
