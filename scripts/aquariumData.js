@@ -54,5 +54,68 @@ export const database = {
             diet: "Omnivore",
             image: "https://www.pacificseafood.com/pac-incoming/2018/05/Atlantic_Salmon_Whole.jpg"
         }
+    ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+         },
+         {
+            topic: "Water Quality",
+            text: "Regularly test the water for pH, ammonia, nitrite, and nitrate levels to ensure a healthy environment for your fish."
+        },
+        {
+            topic: "Tank Size",
+            text: "Provide adequate space by choosing an appropriately sized tank; overcrowding can lead to stress and disease."
+        },
+        {
+            topic: "Filtration",
+            text: "Use a high-quality filtration system to keep the water clean and oxygenated."
+        },
+        {
+            topic: "Feeding",
+            text: "Feed your fish a balanced diet specific to their species, and avoid overfeeding to prevent water contamination."
+        },
+        {
+            topic: "Lighting",
+            text: "Provide appropriate lighting to simulate natural conditions; too much or too little light can harm fish."
+        },
+        {
+            topic: "Tank Decorations",
+            text: "Include plants, rocks, and hiding spots to create a stimulating and safe environment for your fish."
+        }
+    ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+         },
+         {
+            name: "Galápagos Islands",
+            country: "Ecuador",
+            description: "The Galápagos Islands are renowned for their unique biodiversity and are home to many species not found anywhere else on Earth."
+        },
+        {
+            name: "Belize Barrier Reef",
+            country: "Belize",
+            description: "The Belize Barrier Reef is the second largest coral reef system in the world, known for its rich marine life and clear waters."
+        },
+        {
+            name: "Maldives Atolls",
+            country: "Maldives",
+            description: "The Maldives Atolls are famous for their stunning coral reefs and vibrant marine ecosystems, attracting divers from around the globe."
+        },
+        {
+            name: "Red Sea Coral Reef",
+            country: "Egypt",
+            description: "The Red Sea Coral Reef is known for its remarkable diversity of coral and fish species, making it a popular destination for snorkeling and diving."
+        },
+        {
+            name: "Palau Reefs",
+            country: "Palau",
+            description: "Palau Reefs are renowned for their pristine coral gardens and abundant marine life, offering some of the best diving experiences in the world."
+        }
+         
     ]
 }

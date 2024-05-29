@@ -1,7 +1,7 @@
 import { database } from './aquariumData.js';
 
 export const fishList = () => {
-    let fishHTML = '';
+    let fishHTML = ''
     for (const fish of database.fish) {
         fishHTML += `
         <article class="fish">
@@ -18,3 +18,12 @@ export const fishList = () => {
     }
     return fishHTML;
 };
+
+export const renderFishToDOM = (fishHTML) => {
+    const fishListElement = document.getElementById('fishList');
+    if (fishListElement) {
+        fishListElement.innerHTML = fishHTML
+    } else {
+        console.error('Could not find element with id "fishList"');
+    }
+}
