@@ -11,7 +11,7 @@ export const database = {
         {
             name: "Dory",
             species: "Blue Tang",
-            length: 6,
+            length: 9,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://www.georgiaaquarium.org/wp-content/uploads/2018/09/powder-blue-tang-3.jpg"
@@ -22,7 +22,7 @@ export const database = {
             length: 12,
             location: "Pacific Ocean",
             diet: "Carnivore",
-            image: "https://cff2.earth.com/uploads/2024/03/04090046/Striped-marlin-color-change-scaled.jpg"
+            image: "https://www.shogunsportfishing.com/uploads/1/0/3/9/103938520/published/striped-marlin-gfm.jpeg?1496607210"
         },
         {
             name: "Angel",
@@ -35,7 +35,7 @@ export const database = {
         {
             name: "Swordfish",
             species: "Broadbill Swordfish",
-            length: 15,
+            length: 50,
             location: "Atlantic Ocean",
             diet: "Carnivore",
             image: "https://tropicfishhawaii.com/wp-content/uploads/2018/04/Swordfish.jpg"
@@ -51,7 +51,7 @@ export const database = {
         {
             name: "Salmon",
             species: "Atlantic Salmon",
-            length: 30,
+            length: 29,
             location: "North Atlantic Ocean",
             diet: "Omnivore",
             image: "https://www.pacificseafood.com/pac-incoming/2018/05/Atlantic_Salmon_Whole.jpg"
