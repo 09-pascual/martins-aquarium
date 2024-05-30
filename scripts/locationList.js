@@ -1,5 +1,6 @@
 import { database } from "./aquariumData.js";
 
+
 export const locationList = () => {
     let locationListHTML = `<article class="locations">
     <h1><strong>Locations:</strong></h1>`;
@@ -14,6 +15,7 @@ export const locationList = () => {
     locationListHTML += `</article>`;
     return locationListHTML;
 };
+
 
 export const renderLocationToDOM = (locationHTML) => {
     const locationElement = document.getElementById("locationList");
